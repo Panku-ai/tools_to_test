@@ -1,0 +1,17 @@
+name: making actions for tds_course
+
+on:
+  push:
+    branches:
+      -main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-in: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: 22f3003111@ds.study.iitm.ac.in
+        run: echo "it's done dear Prof."
