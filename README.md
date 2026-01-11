@@ -1,2 +1,1 @@
-# Stock_prediction
-My first Project: Predicting stock prices
+this is for an assignment to implement github actions.
